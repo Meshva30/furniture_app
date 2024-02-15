@@ -114,21 +114,21 @@ class _CartscreenState extends State<Cartscreen> {
                   thickness: 1,
                   color: Colors.black,
                 ),
-                // Row(
-                //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                //   children: [
-                //     Text(
-                //       "Total Payment",
-                //       style:
-                //           TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-                //     ),
-                //     Text(
-                //       "\$5445.12",
-                //       style:
-                //           TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-                //     ),
-                //   ],
-                // ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Total Payment",
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                    ),
+                    Text(
+                      "\224680",
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                    ),
+                  ],
+                ),
                 SizedBox(
                   height: 30,
                 ),
@@ -136,7 +136,7 @@ class _CartscreenState extends State<Cartscreen> {
                   onTap: () {},
                   child: Container(
                     margin: EdgeInsets.symmetric(horizontal: 10),
-                    padding: EdgeInsets.symmetric(horizontal: 35),
+                    padding: EdgeInsets.symmetric(horizontal: 30),
                     height: 60,
                     decoration: BoxDecoration(
                         color: Colors.indigo,
