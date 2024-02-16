@@ -125,7 +125,7 @@ class _CartscreenState extends State<Cartscreen> {
                     Text(
                       "\224680",
                       style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
                     ),
                   ],
                 ),
@@ -135,7 +135,7 @@ class _CartscreenState extends State<Cartscreen> {
                 GestureDetector(
                   onTap: () {},
                   child: Container(
-                    margin: EdgeInsets.symmetric(horizontal: 10),
+                  margin: EdgeInsets.fromLTRB(0, 10, 0, 30),
                     padding: EdgeInsets.symmetric(horizontal: 30),
                     height: 60,
                     decoration: BoxDecoration(
